@@ -33,7 +33,7 @@ This command will transcribe the audio file Samplevoice.wav, generate a response
 
 ### Code overview 
 - The SDK uses Python's asyncio library to handle asynchronous tasks, ensuring non-blocking operations for STT, LLM, and TTS functionalities.
-- Print statements are used to log key events such as transcription results and generated responses. For a production environment, consider integrating a logging framework.
+- Print statements are used to log key events such as transcription results and generated responses. For a production environment, integrating a logging framework can be considered.
 
 The SDK follows principles of good API design:
 - Consistency: Uniform function signatures and class methods.
